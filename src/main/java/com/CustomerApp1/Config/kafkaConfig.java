@@ -17,7 +17,7 @@ import java.util.Map;
 @Configuration
 public class kafkaConfig {
 
-    int x=24;
+    
 
     @Bean
     public ProducerFactory<String, Order> producerFactory() {
